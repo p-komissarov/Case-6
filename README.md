@@ -1,1 +1,1 @@
-# Case-6
+This program performs a comprehensive analysis of texts in both Russian and English: it calculates the Flesch readability score, detects the emotional tone of the text, and evaluates the degree to which the content is objective or subjective.
