@@ -105,7 +105,7 @@ def simple_split_words(text):
     text(str): Text to split into words.
 
     Returns:
-    int: Number of words.
+    list: List of words.
     """
 
     for char in text:
