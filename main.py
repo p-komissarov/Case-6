@@ -155,7 +155,7 @@ def main(text):
 
 
     if language != "en":
-        translator = GoogleTranslator(source="auto", target="en")
+        translator = GoogleTranslator()
         translated_text = translator.translate(text)
         translated_blob = TextBlob(translated_text)
         sentiment = translated_blob.sentiment
